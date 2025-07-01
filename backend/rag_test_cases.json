@@ -1,0 +1,98 @@
+[
+  {
+    "id": "Q1",
+    "query": "What is the deductible for the America's Choice 2500 Gold plan?",
+    "expected_answer": "$2,500/individual or $5,000/family",
+    "type": "valid"
+  },
+  {
+    "id": "Q2",
+    "query": "Are preventive care services covered before meeting the deductible?",
+    "expected_answer": "Yes, preventive care services are covered before you meet your deductible.",
+    "type": "valid"
+  },
+  {
+    "id": "Q3",
+    "query": "What is the copay for a specialist visit under the America's Choice 5000 Bronze plan?",
+    "expected_answer": "$45 copay/visit",
+    "type": "valid"
+  },
+  {
+    "id": "Q4",
+    "query": "Is chiropractic care covered under the 5000 HSA plan?",
+    "expected_answer": "Yes, chiropractic care is covered with a 20-visit limitation.",
+    "type": "valid"
+  },
+  {
+    "id": "Q5",
+    "query": "What is the out-of-pocket maximum for the 7350 Copper plan?",
+    "expected_answer": "$7,350/individual or $14,700/family",
+    "type": "valid"
+  },
+  {
+    "id": "Q6",
+    "query": "Are specialty drugs covered under the 5000 Bronze plan?",
+    "expected_answer": "No, specialty drugs are excluded.",
+    "type": "valid"
+  },
+  {
+    "id": "Q7",
+    "query": "Do you need a referral to see a specialist?",
+    "expected_answer": "No, you don't need a referral to see a specialist.",
+    "type": "valid"
+  },
+  {
+    "id": "Q8",
+    "query": "Is there coverage for children's eye exams?",
+    "expected_answer": "No, children's eye exams are not covered.",
+    "type": "valid"
+  },
+  {
+    "id": "Q9",
+    "query": "What is the monthly premium for the 2500 Gold plan?",
+    "expected_answer": "I Don't know",
+    "type": "invalid"
+  },
+  {
+    "id": "Q10",
+    "query": "Does this plan cover acupuncture under any circumstances?",
+    "expected_answer": "I Don't know",
+    "type": "invalid"
+  },
+  {
+    "id": "Q11",
+    "query": "Is dental coverage available for adults?",
+    "expected_answer": "I Don't know",
+    "type": "invalid"
+  },
+  {
+    "id": "Q12",
+    "query": "Can I see a specialist without a doctor's approval?",
+    "expected_answer": "Yes, you don't need a referral to see a specialist.",
+    "type": "edge"
+  },
+  {
+    "id": "Q13",
+    "query": "Are infertility treatments included?",
+    "expected_answer": "No, infertility treatments are not covered.",
+    "type": "edge"
+  },
+  {
+    "id": "Q14",
+    "query": "I'm currently pregnant. Can I enroll in the America's Choice plan?",
+    "expected_answer": "No, current pregnancy disqualifies you from enrolling in any America's Choice plan.",
+    "type": "edge"
+  },
+  {
+    "id": "Q15",
+    "query": "What happens if I skip precertification for a hospital stay?",
+    "expected_answer": "Failure to obtain precertification will result in a 50% benefit reduction ($2,500 maximum).",
+    "type": "edge"
+  },
+  {
+    "id": "Q16",
+    "query": "Does the 5000 HSA plan cover Type 1 Diabetes patients?",
+    "expected_answer": "No, applicants with Type 1 Diabetes in the past 5 years are ineligible for this plan.",
+    "type": "edge"
+  }
+]

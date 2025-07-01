@@ -1,0 +1,13 @@
+fastapi[standard]
+uvicorn
+pydantic-settings==2.4.0
+psutil
+langchain-openai
+langchain-community
+langchain-anthropic
+starlette
+dotenv
+python-docx
+pymupdf
+sentence-transformers
+faiss-cpu
