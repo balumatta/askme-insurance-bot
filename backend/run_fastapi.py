@@ -18,7 +18,6 @@ UrlRouter(app).add_router_from_apps()
 # Running the app with Uvicorn
 if __name__ == "__main__":
     import uvicorn
-
     no_of_cpus = psutil.cpu_count(logical=False)
     no_of_workers = int(no_of_cpus / 2) - 1
     workers = no_of_workers if no_of_workers > 1 else 1
