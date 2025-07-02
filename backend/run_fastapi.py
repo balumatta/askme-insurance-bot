@@ -25,4 +25,4 @@ if __name__ == "__main__":
 
     # set reload to False if you want to check concurrency
     is_reload = False if current_env == Environments.PROD else True
-    uvicorn.run('run_fastapi:app', host="127.0.0.1", port=9000, reload=is_reload, log_level="debug", workers=workers)
+    uvicorn.run('run_fastapi:app', host="0.0.0.0", port=9000, reload=is_reload, log_level="debug", workers=workers)
