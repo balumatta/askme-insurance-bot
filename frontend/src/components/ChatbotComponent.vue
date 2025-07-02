@@ -68,7 +68,7 @@ export default {
       const index = this.messages.length - 1;
 
       try {
-        const response = await fetch("http://localhost:9000/api/bot/ask", {
+        const response = await fetch("https://13.233.201.110/api/bot/ask", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
